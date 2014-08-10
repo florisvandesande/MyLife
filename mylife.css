@@ -1,0 +1,200 @@
+/*
+Theme Name: 		MyLife 0.1
+Author: 			Floris van de Sande
+URL:				http://florisvandesande.com
+Description: 		unfinished
+Language:			English
+------------------------------------------------------------ */
+
+
+	
+	
+/* INDEX
+------------------------------------------------------------
+
+
+	+ STYLEGUIDE
+	+ CSS RESET
+	+ SETUP
+	+ TYPOGRAFY
+	+ LINKS
+	+ NAVIGATION
+	+ MEDIA
+	+ LAY-OUT
+	+ RESPONSIVE
+
+
+------------------------------------------------------------ */
+
+
+
+
+/* STYLEGUIDE
+------------------------------------------------------------
+
+
+	BASE COLOR:						#32383B;
+	GRAY:							#F4F2EE;									
+	RED:							#C44F4D;
+	YELLOW:							#F4CD00;
+	GREEN:							#BACA73;
+	BLUE:							#61BCCA;
+	NEUTRAL:						#94A2A2;	
+		
+	BASE FONT:						'Merriweather', serif;		
+	ALTERNATIVE FONT:				'Droid Sans', Arial, sans-serif, monospace;
+	
+	
+
+------------------------------------------------------------ */
+
+
+
+
+/* CSS RESET
+------------------------------------------------------------ */
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, menu {
+			border: 				0;
+			font-family: 			inherit;
+			font-size: 				1em;
+			font-style: 			inherit;
+			font-weight: 			inherit;
+			margin: 				0;
+			outline: 				0;
+			padding: 				0;
+			vertical-align:			baseline;
+}
+
+html {
+    		font-size: 				100%;
+    		text-size-adjust: 		100%;
+    		-webkit-text-size-adjust: 100%;
+    		-ms-text-size-adjust: 	100%;
+			text-rendering:			optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+    		overflow-y: 			scroll;
+}
+
+body {
+			background-color:		#FFFFFF;
+			margin: 				0;    		
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectie {
+			display: 				block;
+}
+
+ol, ul {
+			list-style: 			none;
+}
+
+caption, th, td {
+			font-weight: 			normal;
+			text-align: 			left;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+			content: 				"";
+}
+
+blockquote, q {
+			quotes: 				"" "";
+}
+textarea {
+			overflow:				auto;
+}
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* SETUP
+------------------------------------------------------------ */
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* TYPOGRAFY
+------------------------------------------------------------ */
+
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* LINKS
+------------------------------------------------------------ */
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* NAVIGATION
+------------------------------------------------------------ */
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* MEDIA
+------------------------------------------------------------ */
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* LAY-OUT
+------------------------------------------------------------ */
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* NAVIGATION
+------------------------------------------------------------ */
+
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+
+/* RESPONSIVE
+------------------------------------------------------------ */
+
+
+
+
+
+/* --------------------------------------------------------- */
