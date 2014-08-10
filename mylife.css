@@ -125,8 +125,38 @@ textarea {
 /* TYPOGRAFY
 ------------------------------------------------------------ */
 
+* {
+	font-family:					arial, sans-serif;
+	font-size:						1em;
+	line-height:					1.3em;
+	color: 							#32383B;
+	-moz-font-feature-settings: 	"liga=1, dlig=1, onum=1";
+    -moz-font-feature-settings: 	"liga", "dlig", "onum";
+    -ms-font-feature-settings: 		"liga", "dlig", "onum";
+    -webkit-font-feature-settings: 	"liga", "dlig", "onum";
+    -o-font-feature-settings: 		"liga", "dlig", "onum";
+    font-feature-settings: 			"liga", "dlig", "onum";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:					Arial, sans-serif, monospace;
+	color: 							#32383b;
+}
 
 
+
+#block h1 {
+	text-align:						center;
+	font-size:						4em;
+	font-weight:					bold;
+}
+#block h5 {
+	text-align:						left;
+	font-size:						2em;
+}
+#block p {
+	text-align:						right;
+}
 
 
 /* --------------------------------------------------------- */
@@ -137,7 +167,18 @@ textarea {
 /* LINKS
 ------------------------------------------------------------ */
 
+a { 
+    color: 							#61BCCA;
+    text-decoration: 				none;
+    -moz-transition-duration: 		0.2s;
+    -webkit-transition-duration: 	0.2s;
+}
 
+a:hover, a:focus { 
+    color: 							#32383B;
+    -moz-transition-duration: 		0.2s;
+    -webkit-transition-duration: 	0.2s;
+}
 
 
 /* --------------------------------------------------------- */
@@ -170,7 +211,11 @@ textarea {
 /* LAY-OUT
 ------------------------------------------------------------ */
 
-
+div#block {
+	display:							inline-block;
+	width:								300px;
+	margin:								0 auto;
+}
 
 
 /* --------------------------------------------------------- */

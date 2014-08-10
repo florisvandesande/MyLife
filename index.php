@@ -63,7 +63,7 @@
 
 <!-- AGE -->
 
-	<div class="age" id="block">
+	<div id="block" class="age">
 
 		<h5>current age</h5>
 		
@@ -85,7 +85,7 @@
 
 <!-- STEPS TAKEN -->
 	
-	<div class="steps" id="block">
+	<div id="block" class="steps">
 		
 		<h5>total steps</h5>
 		
@@ -109,7 +109,7 @@
 
 <!-- WEIGHT -->
 	
-	<div class="weight" id="block">
+	<div id="block" class="weight">
 		
 		<h5>current weight</h5>
 		
@@ -135,7 +135,7 @@
 	
 <!-- HEART RATE -->
 
-	<div class="heart" id="block">
+	<div id="block" class="heart">
 		
 		<h5>latest heart rate</h5>
 		
