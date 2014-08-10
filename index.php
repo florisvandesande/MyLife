@@ -59,6 +59,10 @@
 
 </header>
 
+
+
+<!-- AGE -->
+
 	<div class="age" id="block">
 
 		<h5>current age</h5>
@@ -76,6 +80,10 @@
 		<p>yrs</p>
 	
 	</div>
+	
+
+
+<!-- STEPS TAKEN -->
 	
 	<div class="steps" id="block">
 		
@@ -96,6 +104,57 @@
 		<p>steps</p>
 				
 	</div>
+	
+	
+
+<!-- HOURS SLEPT -->
+
+	<div class="sleep" id="block">
+		
+		<h5>total sleep</h5>
+		
+		<h1><?php 
+			
+			// replace the URL with your own; see the readme for further instructions on creating the csv link in google drive
+			
+			$row = 1;
+			if (($handle = fopen("https://docs.google.com/spreadsheet/pub?key=0Aj0HBW5Zdp3ddHVCOVUtdkNUcFMwelk3ODB5UUd1R2c&single=true&gid=1&range=A1&output=csv", "r")) !== FALSE) { while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) { $num = count($data); 
+			echo " "," "," "; 
+			$row++; for ($recordcount=0; 
+			$recordcount < $num;
+			$recordcount++) { echo $data[$recordcount] . " \n"; } } fclose($handle); } 
+			
+		?></h1>
+		<p>hours</p>
+	
+	</div>
+
+
+
+<!-- WEIGHT -->
+	
+	<div class="weight" id="block">
+		
+		<h5>current weight</h5>
+		
+		<h1><?php 
+		
+		
+			
+			// replace the URL with your own; see the readme for further instructions on creating the csv link in google drive
+			
+			$row = 1;
+			if (($handle = fopen("https://docs.google.com/spreadsheet/pub?key=0Aj0HBW5Zdp3ddG5NbFJQVU04N0FZaXNPT1lmeDVlaGc&single=true&gid=1&range=A1&output=csv", "r")) !== FALSE) { while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) { $num = count($data); 
+			echo " "," "," "; 
+			$row++; for ($recordcount=0; 
+			$recordcount < $num;
+			$recordcount++) { echo $data[$recordcount] . " \n"; } } fclose($handle); }
+			
+		?></h1>
+		<p>kg</p>
+	
+	</div>
+	
 
 </body>
 
