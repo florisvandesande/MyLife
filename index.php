@@ -44,7 +44,36 @@
 
 <body>
 
+<header>	
 
+	<h1 class="site-title">MyLife 0.1</h1>
+	
+	<nav>
+	
+		<ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="about.html">about</a></li>
+		</ul>
+	
+	</nav>
+
+</header>
+
+	<div class="age">
+
+		<h1><?php
+
+			// replace birthday date with your own
+
+			$birthday = new DateTime('1990-01-09 8:30:00');
+			$present = new DateTime();
+			$interval = $present->diff($birthday);
+			echo $interval->y;
+
+		?></h1>
+		<p>years old</p>
+	
+	</div>
 
 </body>
 
