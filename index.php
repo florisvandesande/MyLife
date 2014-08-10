@@ -133,28 +133,27 @@
 
 	
 	
-<!-- HOURS SLEPT -->
+<!-- HEART RATE -->
 
-<!--	<div class="sleep" id="block">
+	<div class="heart" id="block">
 		
-		<h5>total sleep</h5>
+		<h5>latest heart rate</h5>
 		
 		<h1><?php 
 			
 			// replace the URL with your own; see the readme for further instructions on creating the csv link in google drive
 			
 			$row = 1;
-			if (($handle = fopen("https://docs.google.com/spreadsheet/pub?key=0Aj0HBW5Zdp3ddHVCOVUtdkNUcFMwelk3ODB5UUd1R2c&single=true&gid=1&range=A1&output=csv", "r")) !== FALSE) { while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) { $num = count($data); 
+			if (($handle = fopen("https://docs.google.com/spreadsheet/pub?key=0Aj0HBW5Zdp3ddGFnMWMxdDV3OExRaTFydlMyWU5PaUE&single=true&gid=1&range=A1&output=csv", "r")) !== FALSE) { while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) { $num = count($data); 
 			echo " "," "," "; 
 			$row++; for ($recordcount=0; 
 			$recordcount < $num;
 			$recordcount++) { echo $data[$recordcount] . " \n"; } } fclose($handle); } 
 			
 		?></h1>
-		<p>hours</p>
+		<p>bpm</p>
 	
 	</div>
--->	
 
 </body>
 
